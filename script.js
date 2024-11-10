@@ -1,9 +1,7 @@
-// script.js
-
-// Initialize cart count
 
 
-cript.js
+
+
 
 let cartCount = 0;
 function addToCart(productName, productPrice) {

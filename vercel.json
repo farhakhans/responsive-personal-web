@@ -1,0 +1,13 @@
+{
+    "rewrites": [
+      {
+        "source": "/services",
+        "destination": "/pages/services.js"
+      },
+      {
+        "source": "/contact",
+        "destination": "/pages/contact.js"
+      }
+    ]
+  }
+  
