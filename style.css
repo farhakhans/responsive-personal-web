@@ -1,0 +1,330 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+body {
+  background-color: #0214;
+  font-family: Arial, sans-serif;
+  font-weight: bold:
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  background: #589;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+
+
+
+
+
+.logo {
+  position: relative;
+  margin-right: auto;
+  height: 40px; /* Fixed container height to prevent header from resizing */
+  
+}
+
+.logo img {
+  height: 400px; /* Logo ki asli height */
+  margin-top: 48px;
+  width: auto;
+  position: absolute;
+  top: 50%; /* Center logo vertically */
+  transform: translateY(-50%); /* Perfect vertical centering */
+}
+
+.name{
+  margin:0;
+ position: absolute;
+ align-items: center;
+ top: 0;
+ bottom: 0;
+ text-align: center;
+ font-size: 16px;
+
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-toggle {
+  display: none;
+  font-size: 24px;
+  color: white;
+  background: none;
+  border: none;
+}
+
+
+.section {
+  padding: 20px;
+  text-align: center;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  flex: 1;
+}
+.product-listing{
+  margin: 0;
+  padding: 0;
+}
+.product{
+  padding: 8px;
+  justify-content: right;
+}
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading{
+  color: white;
+
+}
+.graphic{
+  color: white;
+
+}
+.service{
+  color: white;
+  
+}
+.description {
+  text-align: justify;
+}
+.cake{
+  text-align: justify;
+ 
+  
+}
+.food{
+  text-align: justify;
+
+}
+.perfume{
+  text-align: justify;
+}
+.services{
+  text-align: justify; 
+}
+.fulfy{
+  text-align: justify;
+}
+.contact{
+  text-align: justify;
+}
+.cart {
+  font-size: 18px;
+}
+
+.product-detail {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.product-image {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.add-to-cart {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #218838;
+}
+
+/* Cart Modal */
+.cart-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: left;
+}
+
+.cart-modal-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-modal-content li {
+  margin-bottom: 10px;
+}
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding-left: 0; /* Remove default left padding */
+}
+
+footer {
+  background: #957;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+
+footer {
+  background: #333;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      background: #333;
+      position: absolute;
+      top: 60px;
+      width: 100%;
+      left: 0;
+  }
+
+  .nav-links li {
+      text-align: center;
+      padding: 10px;
+  }
+
+  .nav-toggle {
+      display: block;
+  }
+
+  .nav-links.active {
+      display: flex;
+  }
+}
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.image-text-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+
+.text-container h1 {
+
+  font-size: 30px;
+  color: #000;
+  font-family: caveat;
+  
+}
+
+
+.text-container p {
+  font-size: 18px;
+  color: #000;
+  font-family: caveat;
+  margin: 10px 0;
+}
+
+.text-container-2 h2{
+
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.text-container p {
+  font-size: 18px;
+  color: #000;
+  font-family: caveat;
+}
+
+@media (max-width: 768px) {
+  .image-text-section {
+      flex-direction: column;
+      text-align: center;
+  }
+  .text-container {
+      max-width: none;
+  }
+}

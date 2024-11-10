@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+            <header>
+            <div class="logo">
+                <img src="/images/logo png.png" alt="logo"><div class="name">Farhana Ahsan</div>
+                </div>
+            
+            <nav> 
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="products.html">Product</a></li>
+                   
+                </ul>
+                <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+            </nav>
+        </header>
+
+        <h1 class="service">Product 1 Details</h1>
+       
+        <div class="cart">
+            <span id="cart-count">0</span> items in cart
+        </div>
+    </header>
+    
+    <section class="product-detail">
+       
+      
+        <img src="/images/choclate cake.jpg" alt="Product 1" class="product-image">
+        <p>This cake is a soft, deliciously moist treat, perfect for any celebration.<br> With rich flavors and beautifully crafted designs, it’s made to delight every taste bud.</p>
+        <p>Price: $20.00</p>
+        <button class="view-details" onclick="toggleDetails()">View Details</button>
+        <div id="product-details" class="product-details">
+            <h3 class="service">Product Details</h3>
+            <ul>
+                <li>Material: High-quality </li>
+                <li>Weight: 2kg</li>
+                <li>Flavor: Choclate</li>
+                <li>Expiry Date: 1-dec-2024</li>
+            </ul>
+        </div>
+        <!-- Add to Cart button -->
+        <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+    </section>
+    <div class="cart">
+        <span id="cart-count">0</span> items in cart
+    </div>
+    <h1 class="service">Product 2 Details</h1>
+    <section class="product-detail">
+       
+      
+        <img src="/images/fulfy.png" alt="Product 1" class="product-image">
+        <p>This Fluffy cartoon plush is an adorable, soft companion perfect for all ages. <br>With vibrant colors and a cuddly design, it brings joy and comfort wherever it goes.</p>
+        <p>Price: $40.00</p>
+        
+        <!-- Add to Cart button -->
+        <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+       
+    </section>
+    <div id="product-details" class="product-details">
+        <button class="view-details" onclick="toggleDetails()">View Details</button>
+        <h3 class="service">Product Details</h3>
+    <ul>
+        
+        <li>Material: High-quality </li>
+        <li>Size: 12x8 inches</li>
+        <li>Weight: 1.5 kg</li>
+        
+    </ul>
+    
+</div>
+
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 My Design. All rights reserved.</p>
+    </footer>
+</body>
+</html>
