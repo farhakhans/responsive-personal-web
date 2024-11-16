@@ -1,0 +1,533 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #6547;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    html,body{
+     
+    }
+}
+
+header {
+    width: 100%;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+
+.standard{
+    display: flex;
+    width: 300%;
+    height: 76vh;
+    position: absolute; left: 0;
+   margin-top: 135px;
+    margin-right: 25px;
+   
+   opecity: 1; 
+   transform: translatey(16px);
+   z-index: -1;
+}
+
+.logo {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    max-height: 60px; /* Maximum height constraint to control logo height within header */
+}
+
+.logo img {
+    height: 350px; /* Logo ki height */
+    width: auto; /* Aspect ratio maintain rahe */
+    position: absolute;
+   margin-top: 90px;
+   margin-right: 45px;
+   align-items: left:
+
+}
+
+.Welcome{
+    font-size: 3rem;
+    font-weight: bold;
+    color: blue;
+    margin-top: 18px;
+    padding-top: 200px;
+
+}
+.Graphic{
+    font-size: 2rem;
+    font-family: caveat;
+    color: blue;
+
+}
+.parag{
+    font-size: 1rem;
+    color: blue;
+
+}
+.img1{
+    width: 25%;
+     position: absolute; left: 0;
+     top: 50%;
+     margin-left: 3%;
+     padding: 1%;
+     margin-top: 48px;
+}
+.text0{
+    
+    color: blue;
+    text-size: 18px; 
+      margin-left: 28%;
+      position: absolute; left: 0;  
+      padding: 1%;
+    
+    
+}
+.text2{
+    font-family: sans serif;
+   position: absolute;left: 0;
+    margin-left: 24%;
+    padding: 60px;
+    text-align: center;
+}
+
+.img2{
+    width: 30%;
+    position: absolute; left: 0;
+    margin-left: 810px;
+   top: 50%;
+   padding: 6%;
+
+}
+.text2{
+    font-size: 18px;
+    color: blue;
+    text-align: left;
+    
+
+}
+.Animation{
+
+    color: blue;
+    position: absolute; left: 0;
+    margin-left: 75%;
+   top: 50%;
+   padding: 2%
+}
+.animation{
+    font-size: 16px;
+    color: blue;
+    position: absolute; right: 0;
+    margin-left: 85%;
+
+
+}
+
+.man{
+    position: absolute; right: 0; 
+    top: 50%;
+    margin-left: 25%;
+    padding: 30%;
+    margin-top: 200px;
+
+}
+.s1{
+    color: blue;
+    font-size: 3rem;
+    margin-top: 210px;
+}
+.s2{
+    font-size: 16px;
+    color: blue;
+    text-align: justify;
+   
+
+}
+.gg{
+    position: absolute; left: 0;
+    padding: 20%;
+    margin-left: 5%;
+    margin-top: 200px;
+    
+}
+.about{
+    color: blue;
+    font-size: 3rem;
+    margin-top: 200px;
+}
+.p{
+    color: blue;
+    text-align: justify;
+    font-family: caveat;
+
+}
+.girl{
+    padding: 1%;
+    position: absolute; right: 0; 
+    margin-left: 15%;
+   
+}
+.grp{
+    position: absolute; left: 0; 
+    padding: 2%;
+
+}
+.ct{
+    color: blue;
+    font-size: 25px;
+    font-family: caveat;
+    padding: 1%;
+    margin-left: 2px;
+    text-align: justify;
+}
+.con{
+    font-size: 3rem;
+    color: blue;
+    margin-top: 200px;
+
+}
+.phn{
+    position: absolute; left: 0; 
+    padding: 18%;
+    margin-top: 158px;
+    margin-left: 35px;
+}
+.pr{
+    color: blue;
+    font-size: 3rem;
+}
+.prd{
+    color: blue;
+    font-family: caveat;
+    text-align: left;
+}
+.fulfy{
+    position: absolute; left: 0; 
+    padding: 10%;
+}
+.micky{
+    position: absolute; right: 0;
+  
+    margin-top: 25%;
+    
+    margin-right: 110px;
+   
+}
+.op{
+    color: blue;
+    font-size: 2rem;
+    margin-top: 218px;
+
+}
+.des{
+    font-family: caveat;
+    font-size: 18px;
+    margin-right: 50px;
+    text-align: justify;
+    padding: 1%;
+    color: blue;
+
+}
+.giff{
+    margin-right: 8%;
+    
+}
+
+.cart {
+
+font-size: 18px;
+}
+.ppr{
+    color: blue;
+    margin-bottom: 4%;
+}
+
+.product-detail {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.product-image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.add-to-cart {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+/* Cart Modal */
+.cart-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: left;
+}
+
+.cart-modal-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-modal-content li {
+    margin-bottom: 10px;
+}
+
+
+.cart1{
+font-size: 18px;
+}
+
+.product-detail {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.product-image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.add-to-cart {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+/* Cart Modal */
+.cart-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: left;
+}
+
+.cart-modal-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-modal-content li {
+    margin-bottom: 10px;
+}
+
+
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-toggle {
+    display: none;
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 12px;
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #333;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        left: 0;
+    }
+
+    .nav-links li {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    flex: 1;
+}
+
+
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-toggle {
+    display: none;
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-toggle {
+    display: none;
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-toggle {
+    display: none;
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #333;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        left: 0;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
